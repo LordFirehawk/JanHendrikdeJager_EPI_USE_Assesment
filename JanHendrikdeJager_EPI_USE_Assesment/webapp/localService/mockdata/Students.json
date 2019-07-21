@@ -1,0 +1,41 @@
+[{
+	"BirthDate": "/Date(837658800000)/",
+	"Degree": "BSC Computer Science",
+	"EntryDate": "/Date(1420430400000)/",
+	"FirstName": "William",
+	"LastName": "Kogelberg",
+	"SNumber": "S000001",
+	"Year": 3
+}, {
+	"BirthDate": "/Date(860900400000)/",
+	"Degree": "BSC Computer Science",
+	"EntryDate": "/Date(1452225600000)/",
+	"FirstName": "Sophia",
+	"LastName": "Kuils",
+	"SNumber": "S000002",
+	"Year": 2
+}, {
+	"Degree": "BSC Computer Science",
+	"EntryDate": "/Date(1546315200000)/",
+	"BirthDate": "/Date(981172800000)/",
+	"Year": 1,
+	"SNumber": "S000003",
+	"FirstName": "Craig",
+	"LastName": "Brackenfell"
+}, {
+	"Degree": "BSC Computer Science",
+	"EntryDate": "/Date(1420171200000)/",
+	"BirthDate": "/Date(816408000000)/",
+	"SNumber": "S000004",
+	"LastName": "Lowry",
+	"FirstName": "Thomas",
+	"Year": 3
+}, {
+	"Degree": "BSC Computer Science",
+	"BirthDate": "/Date(986526000000)/",
+	"EntryDate": "/Date(1420171200000)/",
+	"FirstName": "Rose",
+	"LastName": "Raithby",
+	"SNumber": "S000005",
+	"Year": 1
+}]

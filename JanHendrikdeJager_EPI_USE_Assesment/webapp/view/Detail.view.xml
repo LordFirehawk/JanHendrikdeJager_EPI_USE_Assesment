@@ -1,0 +1,61 @@
+<mvc:View controllerName="epi.use.training.EPI-USE_Training_StudentMarks.controller.Detail" xmlns="sap.m" xmlns:semantic="sap.f.semantic"
+	xmlns:mvc="sap.ui.core.mvc">
+	<semantic:SemanticPage id="detailPage" busy="{detailView>/busy}" busyIndicatorDelay="{detailView>/delay}">
+		<semantic:titleHeading>
+			<Title text="{FirstName} {LastName}" level="H2"/>
+		</semantic:titleHeading>
+		<semantic:headerContent>
+			<VBox>
+				<Label text="{i18n>degreeTitle} {Degree}"/>
+				<Label text="{i18n>yearTitle} {Year}"/>
+				<Label text="{i18n>bdayTitle} {path:'BirthDate', formatter: '.formatter.formatDate'}"/>
+				<Label text="{i18n>entryTitle} {path: 'EntryDate', formatter: '.formatter.formatDate'}"/>
+			</VBox>
+		</semantic:headerContent>
+		<semantic:content>
+			<VBox>
+				<Table id="lineItemsList" width="auto" items="{ModuleDetail}" updateFinished=".onListUpdateFinished"
+					noDataText="{i18n>detailLineItemTableNoDataText}" busyIndicatorDelay="{detailView>/lineItemTableDelay}">
+					<headerToolbar>
+						<Toolbar>
+							<Title id="lineItemsTitle" text="{detailView>/lineItemListTitle}" titleStyle="H3" level="H3"/>
+						</Toolbar>
+					</headerToolbar>
+					<columns>
+						<Column>
+							<Text text="{i18n>detailLineItemTableColumn1}"/>
+						</Column>
+						<Column>
+							<Text text="{i18n>detailLineItemTableColumn2}"/>
+						</Column>
+						<Column>
+							<Text text="{i18n>detailLineItemTableColumn3}"/>
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells>
+								<ObjectIdentifier title="{ModuleCode}"/>
+								<ObjectIdentifier title="{MarkReceived} %"/>
+								<ObjectStatus text="{IsDistinction}" state="{= ${IsDistinction}?'Error':'Success'}"/>
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+				<Button text="Calculate Total" press="onCalculateTotal"/>
+				<Label text ="{detailView>/markTotal}" />
+			</VBox>
+		</semantic:content>
+		<semantic:closeAction>
+			<semantic:CloseAction id="closeColumn" press=".onCloseDetailPress"/>
+		</semantic:closeAction>
+		<semantic:fullScreenAction>
+			<semantic:FullScreenAction id="enterFullScreen"
+				visible="{= !${device>/system/phone} &amp;&amp; !${appView>/actionButtonsInfo/midColumn/fullScreen}}" press=".toggleFullScreen"/>
+		</semantic:fullScreenAction>
+		<semantic:exitFullScreenAction>
+			<semantic:ExitFullScreenAction id="exitFullScreen"
+				visible="{= !${device>/system/phone} &amp;&amp; ${appView>/actionButtonsInfo/midColumn/fullScreen}}" press=".toggleFullScreen"/>
+		</semantic:exitFullScreenAction>
+	</semantic:SemanticPage>
+</mvc:View>
