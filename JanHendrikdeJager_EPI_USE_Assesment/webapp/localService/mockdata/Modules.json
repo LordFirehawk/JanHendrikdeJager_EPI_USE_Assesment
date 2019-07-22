@@ -1,0 +1,171 @@
+[{
+	"Id": 9523,
+	"IsDistinction": false,
+	"MarkReceived": 56,
+	"ModuleCode": "COS371",
+	"ModuleDescription": "Artificial Intelligence",
+	"SNumber": "S000001",
+	"Student": "W. Koegelberg",
+	"__metadata": {
+		"uri": "Modules(Id=9523,SNumber='SNumber%2011')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=9523,SNumber='SNumber%2011')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 8078,
+	"IsDistinction": false,
+	"MarkReceived": 67,
+	"ModuleCode": "COS322",
+	"ModuleDescription": "Software Engineering",
+	"SNumber": "S000001",
+	"Student": "W. Koegelberg",
+	"__metadata": {
+		"uri": "Modules(Id=8078,SNumber='SNumber%2012')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=8078,SNumber='SNumber%2012')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 3324,
+	"IsDistinction": true,
+	"MarkReceived": 78,
+	"ModuleCode": "COS231",
+	"ModuleDescription": "Computer Networks",
+	"SNumber": "S000002",
+	"Student": "S. Kuils",
+	"__metadata": {
+		"uri": "Modules(Id=3324,SNumber='SNumber%2013')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=3324,SNumber='SNumber%2013')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 591,
+	"IsDistinction": true,
+	"MarkReceived": 81,
+	"ModuleCode": "COS211",
+	"ModuleDescription": "Compiler Construction",
+	"SNumber": "S000002",
+	"Student": "S. Kuils",
+	"__metadata": {
+		"uri": "Modules(Id=591,SNumber='SNumber%2014')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=591,SNumber='SNumber%2014')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 4853,
+	"IsDistinction": true,
+	"MarkReceived": 78,
+	"ModuleCode": "COS171",
+	"ModuleDescription": "Data Structures",
+	"SNumber": "S000003",
+	"Student": "C. Brackenfell",
+	"__metadata": {
+		"uri": "Modules(Id=4853,SNumber='SNumber%2015')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=4853,SNumber='SNumber%2015')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 4053,
+	"IsDistinction": true,
+	"MarkReceived": 76,
+	"ModuleCode": "COS131",
+	"ModuleDescription": "Concurrent Systems",
+	"SNumber": "S000003",
+	"Student": "C. Brackenfell",
+	"__metadata": {
+		"uri": "Modules(Id=4053,SNumber='SNumber%2016')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=4053,SNumber='SNumber%2016')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 7495,
+	"IsDistinction": false,
+	"MarkReceived": 73,
+	"ModuleCode": "COS371",
+	"ModuleDescription": "Artificial Intelligence",
+	"SNumber": "S000004",
+	"Student": "T. Lowry",
+	"__metadata": {
+		"uri": "Modules(Id=7495,SNumber='SNumber%2017')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=7495,SNumber='SNumber%2017')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 7826,
+	"IsDistinction": false,
+	"MarkReceived": 45,
+	"ModuleCode": "COS322",
+	"ModuleDescription": "Software Engineering",
+	"SNumber": "S000004",
+	"Student": "T. Lowry",
+	"__metadata": {
+		"uri": "Modules(Id=7826,SNumber='SNumber%2018')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=7826,SNumber='SNumber%2018')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 3812,
+	"IsDistinction": true,
+	"MarkReceived": 77,
+	"ModuleCode": "COS171",
+	"ModuleDescription": "Data Structures",
+	"SNumber": "S000005",
+	"Student": "R.",
+	"__metadata": {
+		"uri": "Modules(Id=3812,SNumber='SNumber%2019')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=3812,SNumber='SNumber%2019')/StudentDetails"
+		}
+	}
+}, {
+	"Id": 6152,
+	"IsDistinction": false,
+	"MarkReceived": 50,
+	"ModuleCode": "COS131",
+	"ModuleDescription": "Concurrent Systems",
+	"SNumber": "S000005",
+	"Student": "R.",
+	"__metadata": {
+		"uri": "Modules(Id=6152,SNumber='SNumber%2020')",
+		"type": "default.Module"
+	},
+	"StudentDetails": {
+		"__deferred": {
+			"uri": "Modules(Id=6152,SNumber='SNumber%2020')/StudentDetails"
+		}
+	}
+}]
